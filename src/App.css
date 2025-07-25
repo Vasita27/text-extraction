@@ -1,0 +1,108 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Full-screen centered layout */
+.app {
+  min-height: 100vh;
+  width: 100vw;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f8fafc; /* light neutral background */
+  padding: 20px;
+}
+
+/* Card container */
+.card {
+  background: #ffffff;
+  padding: 40px;
+  width: 100%;
+  max-width: 420px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+/* Title styling */
+.title {
+  font-size: 2rem;
+  color: #1e293b;
+  margin-bottom: 10px;
+}
+
+/* Subtitle */
+.subtitle {
+  font-size: 0.95rem;
+  color: black;
+  margin-bottom: 25px;
+}
+
+
+/* File input */
+.file-input {
+  width: 100%;
+  padding: 10px;
+  border: 2px dashed #cbd5e1;
+  border-radius: 10px;
+  background: #f1f5f9;
+  cursor: pointer;
+  margin-bottom: 20px;
+  color: black;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.file-input:hover {
+  border-color: #3b82f6;
+}
+
+/* Upload button */
+.upload-btn {
+  width: 100%;
+  background: #3b82f6;
+  color: white;
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.3s ease-in-out, transform 0.1s;
+}
+
+.upload-btn:hover {
+  background: #2563eb;
+}
+
+.upload-btn:active {
+  transform: scale(0.98);
+}
+
+/* Extracted text section */
+.result {
+  margin-top: 25px;
+  text-align: left;
+  background: #f9fafb;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.result h2 {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  color: #1e293b;
+}
+
+.result pre {
+  font-size: 0.95rem;
+  color: #334155;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
