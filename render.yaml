@@ -10,5 +10,5 @@ services:
         value: 3.10.12
     plan: free
     region: oregon
-    aptDependencies:
+    packages:
       - tesseract-ocr
