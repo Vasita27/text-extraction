@@ -20,13 +20,10 @@ The project includes:
 - **Deployment:** Render (Flask) + Netlify (React) or combined Flask serving React
 
 ---
+Preview 
 
-## 🔗 Live Demo 
+<img width="685" height="863" alt="image" src="https://github.com/user-attachments/assets/aa62aee6-16bc-4d9b-bb6e-c5f6578ba711" />
 
----
-
-## 📸 Screenshot
-![Screenshot](./SCREENSHOT.png)
 
 ---
 
