@@ -7,7 +7,8 @@ A step‑by‑step guide to run the **Text Extractor App** locally.
 ```
 text-extractor-app/
 ├─ backend/   # Flask OCR API
-├─ frontend/  # React UI
+├─ src  #Frontend part
+..
 ```
 
 ## ✅ 1️⃣ Prerequisites
@@ -62,6 +63,14 @@ Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
+Note : You must also have to install the tesseract engine. For example on Ubuntu,
+
+```
+sudo apt update && sudo apt upgrade -y
+sudo apt install tesseract-ocr -y
+sudo apt install python3-pip python3-venv -y
+```
+If windows, kindly install the engine by browsing online for downlaod package.
 
 Run the Flask server:
 
